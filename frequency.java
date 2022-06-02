@@ -17,7 +17,7 @@ public class frequency {
             if(remainder == ele){
                 count++;
             }
-            numbers = quotient;s
+            numbers = quotient;
         }
         System.out.println("Frequency is > "+count);
     }
