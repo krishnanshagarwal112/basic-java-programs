@@ -8,11 +8,15 @@ public class largerOf2 {
         int number1 = input.nextInt();
         System.out.print("Enter second number > ");
         int number2  = input.nextInt();
+        System.out.print("Enter third number > ");
+        int number3  = input.nextInt();
 
-        if(number1>number2){
-            System.out.println(number1 + "is bigger than " + number2 );
+        int max = number1;
+        if(number2 > max){
+            max = number2;
         }else{
-            System.out.println(number2 + " is bigger than " + number1);
+            max = number3;
         }
+        System.out.println("Max number is "+max);
     }
 }
